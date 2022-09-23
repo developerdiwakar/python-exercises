@@ -1,4 +1,7 @@
 '''
+Syntax: if expr: stmt 
+        elif expr: stmt
+        else: stmt
 Write a program to check greatest number between the three numbers.
 '''
 a = eval(input('enter the 1st number: '))
