@@ -62,3 +62,8 @@ print(d.get('b')) # key is not there, so None is returned
 d.setdefault('k', 12) # 'k' is missing, we get default value. Also, the key/value pair (a, 1) has now been added
 print(d)
 # Output = {'e': 1, 'h': 0, 'another': 'value', 'a': 13, 'k': 12} 
+# Some example of type conversions
+ctuple = ('Red', 'Blue')
+clist = [ctuple, ('Green', 'Yellow')]
+colors = dict()
+print(type(colors))
