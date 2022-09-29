@@ -32,6 +32,11 @@ ages = [23,34,44,46]
 # for person, age in zip(people, ages):
 #     print(person, age)
 countries = ['Poland', 'India', 'Germany', 'Mexico']
-for data in zip(people, ages, countries):
-    person, age, country = data
-    print(person, age, country)
+# for data in zip(people, ages, countries):
+#     person, age, country = data
+#     print(person, age, country)
+
+# Using range(start, stop, step) function
+# for i in range(-10, 10, 2):
+#     print(i) 
+
